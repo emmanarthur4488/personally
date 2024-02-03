@@ -1,0 +1,97 @@
+
+.rect{
+    width: 100%;
+    height: 50vh;
+}
+.rect img{
+    width: 100%;
+    height: 50vh;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.note{
+    align-items: center;
+    justify-content: center;
+    padding-left: 13rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    color: #1D2939;
+    font-size: 15px;
+    line-height: 140%;
+    padding-bottom: 2rem;
+}
+.rect2 img{
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.note-3{
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.note-3 p{
+    padding-left: 3rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    position: relative;
+    font-family: Graphik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: #232E52;
+    border-left: 4px solid #d61243;
+}
+
+@media screen and (max-width:760px){
+    .rect img{
+        width: 100%;
+        height: 50vh;
+        padding: 0;
+    }
+    .note{
+        align-items: center;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        color: #1D2939;
+        font-size: 13px;
+        line-height: 140%;
+        padding-bottom: 2rem;
+    }
+    .rect2 img{
+        width: 100%;
+        height: 50vh;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .note-3{
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .note-3 p{
+        padding-left: 2rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        position: relative;
+        font-family: Graphik;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        color: #232E52;
+        border-left: 4px solid #d61243;
+    }
+    .digest h2{
+        font-size: 16px;
+    }
+}

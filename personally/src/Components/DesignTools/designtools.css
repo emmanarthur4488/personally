@@ -1,0 +1,206 @@
+.hero{
+    padding: 4rem;
+    background: #FFFFFF;
+    margin-top: 1rem;
+}
+.hero h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    background: -webkit-linear-gradient(left, #C41740, #EA9C28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.hero p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #475467;
+    font-size: 20px;
+}
+.daily_digest{
+   align-items: center;
+   justify-content: center;
+   padding: 4rem;
+   background: #F2F4F7;
+}
+.digest{
+    display: flex;
+    justify-content: space-between;
+}
+.digest h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1D2939;
+}
+.digest button{
+    border: none;
+    background: #ffffff;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #1D2939;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.digest_box{
+    display: flex;
+    justify-content: space-between;
+}
+.digest_box img{
+    width: 30%;
+    height: 30%;
+}
+.digest_main{
+    margin-top: 1.5rem;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.24);
+}
+.digest_main h3{
+    color: #667085;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.digest_box h1{
+    padding-top: 1.5rem;
+    color: #1D2939;
+    font-size: 23px;
+    line-height: 33px;
+}
+.digest_box p{
+    color: #475467;
+    font-size: 16px;
+    padding-top: 1rem;
+}
+.tools{
+    margin-top: 4rem;
+}
+.subscribe{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    background: #ffffff;
+}
+.subscribe h1{
+    padding: 1rem;
+    background: -webkit-linear-gradient(left, #C41740, #EA9C28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subscribe p{
+    color: #475467;
+    font-size: 18px;
+}
+.sub_input{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.sub_input input{
+    border: 1px solid #cccccc;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.sub_input button{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: none;
+    background: #1D2939;
+    color: #ffffff;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+@media screen and (max-width:760px){
+    .digest_box{
+        display: block;
+    }
+    .digest_box img{
+        width: 100%;
+        padding: 1rem;
+    }
+    .digest_box h1{
+        padding-top: 1.5rem;
+        color: #1D2939;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 1rem;
+    }
+    .digest_box p{
+        display: none;
+    }
+    .daily_digest{
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background: #F2F4F7;
+    }
+    .hero{
+        padding: 2rem;
+    }
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero p{
+        font-size: 12px;
+    }
+    .digest_main{
+        margin-top: 1.5rem;
+        padding: 0;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.24);
+    }
+    .digest_main h3{
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+    .subscribe h1{
+        padding: 1rem;
+        font-size: 20px;
+    }
+    .subscribe p{
+        color: #475467;
+        font-size: 12px;
+    }
+    .sub_input button{
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border: none;
+        background: #1D2939;
+        color: #ffffff;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 80%;
+        margin-top: 1rem;
+    }
+    .sub_input input{
+        border: 1px solid #cccccc;
+        outline: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 80%;
+    }
+}

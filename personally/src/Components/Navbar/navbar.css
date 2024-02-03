@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background: #ffffff;
+    margin-right: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.24);
+}
+.logo{
+    font-size: 20px;
+    color: #232e52;
+}
+.logo span{
+    position: relative;
+    top: -6px;
+    font-size: 10px;
+}
+nav .nav-link{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+nav .nav-link li a{
+    color: #232e52;
+    text-decoration: none;
+    padding: 7px 17px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn{
+    border: none;
+    outline: none;
+    background: #232e52;
+    color: #f0eeee;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.mobile-menu-icon{
+    display: none;
+}
+
+
+
+@media screen and (max-width:760px){
+    .logo{
+        display: block;
+    }
+    nav .nav-link{
+        display: none;
+    }
+    .nav-link-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #ffffff;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 94.5%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .nav-link-mobile li{
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .nav-link-mobile li a{
+        background: -webkit-linear-gradient(left, #C41740, #EA9C28);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+        position: relative;
+        font-size: 20px;
+        color: #232e52;
+        background: none;
+        border: none;
+        outline: none;
+        top: 5px;
+        right: 5px;
+        justify-content: flex-end;
+    }
+    .btn{
+        display: none;
+    }
+}

@@ -1,0 +1,71 @@
+
+.daily_digest2{
+    align-items: center;
+    justify-content: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background: #F2F4F7;
+ }
+.digest__main{
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.24);
+}
+.subscribe{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    background: #ffffff;
+}
+.sub_input{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.sub_input input{
+    border: 1px solid #cccccc;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.sub_input button{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: none;
+    background: #1D2939;
+    color: #ffffff;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.more{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+.more button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    background: #ffffff;
+    color: #232E52;
+    text-align: center;
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    border-radius: 8px;
+}
